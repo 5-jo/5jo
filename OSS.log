@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.29)  6 DEC 2017 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.29)  6 DEC 2017 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,6 +474,26 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
+)
+(c:/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen115
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen116
+\subfiglabelskip=\skip47
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
 ) (./OSS.aux)
 \openout1 = `OSS.aux'.
 
@@ -534,16 +554,16 @@ LaTeX Font Info:    ... okay on input line 14.
 
 (c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
-\scratchdimen=\dimen115
+\scratchcounter=\count97
+\scratchdimen=\dimen117
 \scratchbox=\box27
-\nofMPsegments=\count94
-\nofMParguments=\count95
+\nofMPsegments=\count98
+\nofMParguments=\count99
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count96
-\MPscratchDim=\dimen116
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen118
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks21
 ) (c:/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -604,26 +624,56 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
  [1
 
-{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<game.png, id=64, 718.18312pt x 358.33875pt>
-File: game.png Graphic file (type png)
-<use game.png>
-Package pdftex.def Info: game.png  used on input line 80. on input line 80.
-Package pdftex.def Info: Requested size: 455.24411pt x 227.1489pt on input line
- 80.
- [4 <./game.png>] (./OSS.aux) )
-(\end occurred inside a group at level 1)
+{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+<OM1.png, id=69, 734.745pt x 386.94562pt>
+File: OM1.png Graphic file (type png)
+<use OM1.png>
+Package pdftex.def Info: OM1.png  used on input line 85. on input line 85.
+Package pdftex.def Info: Requested size: 455.24411pt x 239.7562pt on input line
+ 85.
+ [5 <./OM1.png>]
+<komoku.png, id=75, 210.7875pt x 243.91125pt>
+File: komoku.png Graphic file (type png)
+<use komoku.png>
+Package pdftex.def Info: komoku.png  used on input line 95. on input line 95.
+Package pdftex.def Info: Requested size: 159.33821pt x 184.38075pt on input lin
+e 95.
+<normal.png, id=77, 213.79875pt x 240.14719pt>
+File: normal.png Graphic file (type png)
+<use normal.png>
+Package pdftex.def Info: normal.png  used on input line 101. on input line 101.
 
+Package pdftex.def Info: Requested size: 159.33821pt x 178.97398pt on input lin
+e 101.
+ [6 <./komoku.png> <./normal.png>]
+<renju.png, id=85, 203.25937pt x 242.40562pt>
+File: renju.png Graphic file (type png)
+<use renju.png>
+Package pdftex.def Info: renju.png  used on input line 109. on input line 109.
+Package pdftex.def Info: Requested size: 159.33821pt x 190.0336pt on input line
+ 109.
+ [7 <./renju.png>]
+<OM_5.png, id=90, 362.10281pt x 240.9pt>
+File: OM_5.png Graphic file (type png)
+<use OM_5.png>
+Package pdftex.def Info: OM_5.png  used on input line 119. on input line 119.
+Package pdftex.def Info: Requested size: 455.24411pt x 302.87025pt on input lin
+e 119.
+ [8 <./OM_5.png>]
+(./OSS.aux) )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 79 ({)
 ### simple group (level 1) entered at line 71 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3023 strings out of 492985
- 42702 string characters out of 6136283
- 108624 words of memory out of 5000000
- 6482 multiletter control sequences out of 15000+600000
- 29154 words of font info for 100 fonts, out of 8000000 for 9000
+ 3214 strings out of 492985
+ 45397 string characters out of 6136283
+ 111426 words of memory out of 5000000
+ 6658 multiletter control sequences out of 15000+600000
+ 31507 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,25p,605b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,25p,605b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2
@@ -652,32 +702,37 @@ b0.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb
 ><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/t
 exlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive
 /2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2017/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2017/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmbc.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmc0.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmc1.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmc2.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mc3.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pf
-b><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/
-texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texliv
-e/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2017
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2017/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmcb.pfb><c:/texlive/2017/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2017/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmce.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmcf.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmd0.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmd3.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmd4.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb>
-Output written on OSS.pdf (4 pages, 2013630 bytes).
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/2017/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2017/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2017/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmba.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmbb.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmbc.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmbd.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mc0.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/
+texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb><c:/texliv
+e/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.pfb><c:/texlive/2017
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2017/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2017/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmc9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmcb.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmcc.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmcd.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmce.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcf.p
+fb><c:/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:
+/texlive/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texli
+ve/2017/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2017/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmd7.pfb>
+Output written on OSS.pdf (8 pages, 2388253 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
+ 275 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

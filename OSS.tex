@@ -3,7 +3,7 @@
 \usepackage{kotex}
 \usepackage{color}
 \usepackage{enumitem}
-\usepackage{graphicx}
+\usepackage{graphicx,subfigure}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
 
@@ -66,7 +66,7 @@
    \ 다들 한번쯤 간단한 콘솔게임을 많이 해보셨을꺼라고 생각합니다. 그중 대표적인 게임으로 시작프로그램에 있는 윈도우즈용 간단한 게임들인 스파이더맨,지뢰찾기,프리쉘 등등 많이 있습니다. 하지만 최근 os가 윈도우10으로 바뀌면서 시작프로그램의 지뢰찾기등 많은 간단한 게임 프로그램들이 사라졌습니다. 저희는 이런 옛 추억적이고 학창시절 친구들과 자주했던 게임들중 여러개중 하나인 오목을 선택하게 되었습니다.
    
    
-   \newpage
+   
    \newpage
    \title{\textbf{\Huge2. 프로그램 설명}
    	\\ 이 콘솔프로그램은 네이버 어느유저가 올린 오픈소스프로그램으로써 간단한 오목을 즐기는 프로그램이다. 
@@ -75,18 +75,55 @@
    
    
    
-   \begin{figure}[h] %%% t: top, b: bottom, h: here
-   	\begin{center}
-   		\includegraphics[width=1.0\linewidth]{game.png}
-   	\end{center}
-   	\caption{intro}
-   	\label{fig:long}
-   	\label{fig:onecol}
-   \end{figure}
-   
-   
-   
+   \newpage
+   \title{\textbf{\Huge4. 게임 룰 설명 및 조작법 }
+   	\vspace{0.5cm}
+   	\\ 1)게임룰
+   	
+   	\begin{figure}[h] %%% t: top, b: bottom, h: here
+   		\begin{center}
+   			\includegraphics[width=1.0\linewidth]{OM1.png}
+   		\end{center}
+   		\caption{게임 실행시 룰 선택}
+   	\vspace{0.5cm}
+   	\ 오목게임실행시 첫 화면으로 고모쿠룰 일반룰 렌주룰 3가지중 하나의 룰을 선택합니다. (이걸 외부 기능으로 옮겨야 할듯)
+   	\end{figure}
  
-   
-   
+    \newpage
+          \begin{figure}[h]
+    	\begin{center}
+    		\subfigure{\includegraphics[width=0.35\linewidth]{komoku.png}}
+    		\\ 고모쿠룰 :  아무런 제약이 없는 오목으로, 먼저 두는 흑돌 에게 유리하다. 백돌 에게 불공평하기 때문에 공식에서 잘 쓰이지 않는다. 
+    		
+    		\vspace{2.6cm} 	
+    			
+  
+    		\subfigure{\includegraphics[width=0.35\linewidth]{normal.png}}
+    		\\ 일반룰 : 일상적으로 가볍게 대전할 때 가장 많이 사용되는 룰이다. 일단 3-3은 흑, 백 모두 금지되나 여기서 2개의 라인의 양 끝, 즉 4개의 끝 중 하나라도 막혀있으면 금지수가 아니다. 4-4에서 4가 하나 띄워져 있더라도 금지이다.
+    	\end{center}
+    \end{figure}
+
+	\newpage
+	   	\begin{figure}[h] %%% t: top, b: bottom, h: here
+		\begin{center}
+			\includegraphics[width=0.35\linewidth]{renju.png}
+		\\ 렌주룰 : 국제적인 룰로 흑만 3-3과 4-4, 장목이 금지하고, 백은 허용한다. 물론 금수와 함께 5도 만들어지는 경우에는 흑 승리로 한다.
+		\end{center}
+   \end{figure}
+  
+  
+  \newpage
+  \title{게임조작법}
+  \begin{figure}[h] %%% t: top, b: bottom, h: here
+  	\begin{center}
+  		\includegraphics[width=1.0\linewidth]{OM_5.png}
+  	\end{center}
+  	\vspace{0.5cm}
+  	\ 스페이스바 : 놓기
+  	\\ 방향키 : 이동
+  	\\ 무르기 : U
+  	\\ 다시하기 : R
+  	\\ 무승부하기 : Delete Key
+  \end{figure}
+  
 \end{document} 
